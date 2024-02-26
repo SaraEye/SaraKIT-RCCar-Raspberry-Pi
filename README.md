@@ -21,11 +21,12 @@ This RC Car project demonstrates how to integrate the SaraKIT with a Raspberry P
 
 ### Prerequisites
 
-- Raspberry Pi CM4 with IO Board
+- Raspberry Pi CM4
 - SaraKIT expansion board
 - LEGO car setup or similar vehicle platform
 - One or two compatible cameras (optional for FPV)
 - Basic understanding of C++ and Raspberry Pi environment
+- Two gimbal motors
 
 ### Installation
 
@@ -46,13 +47,9 @@ make
 ./rc_car_control
 ```
 
-### Configuration
-
-Edit the `config.h` file to match your hardware setup, including motor pin assignments, camera IP addresses, and WiFi settings.
-
 ## Example Code
 
-The project includes a sample C++ application that demonstrates basic control logic for steering and speed management, as well as camera stream handling. See the `src` directory for the source code.
+The project includes a sample C++ application that demonstrates basic control logic for steering and speed management, as well as camera stream handling. 
 
 ## Contributing
 
@@ -70,7 +67,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 For more detailed instructions, troubleshooting, and other projects, please visit the [Hackster.io project page](https://www.hackster.io/sarakit/rc-car-lego-powered-by-raspberry-pi-cm4-with-sarakit-dfc9ac).
 
 Happy building!
-```
-
-Make sure to replace `[this-repo-url]`, `[project-directory]`, and add the actual image file path in place of `(images/rc-car-lego.jpg)` before publishing the README.md file on GitHub.
- 
