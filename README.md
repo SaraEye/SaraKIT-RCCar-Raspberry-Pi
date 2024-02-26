@@ -30,7 +30,7 @@ This RC Car project demonstrates how to integrate the SaraKIT with a Raspberry P
 
 ### Installation
 
-1. **Set Up Your Raspberry Pi**: Ensure that your Raspberry Pi CM4 is set up with the latest Raspberry Pi OS and connected to the same WiFi network as your remote control device.
+1. **Set Up Your Raspberry Pi**: Ensure that your Raspberry Pi CM4 is set up with the latest Raspberry Pi OS and connected to the same WiFi network as your remote control device (https://sarakit.saraai.com/getting-started/software)
 
 2. **Connect the SaraKIT**: Attach the SaraKIT to your Raspberry Pi CM4 according to the instructions provided with the kit.
 
@@ -41,10 +41,10 @@ This RC Car project demonstrates how to integrate the SaraKIT with a Raspberry P
 5. **Deploy the C++ Code to Your Raspberry Pi**: Clone this repository and follow the build instructions below to compile and run the RC car control software.
 
 ```bash
-git clone [this-repo-url]
-cd [project-directory]
+git clone https://github.com/SaraEye/SaraKIT-RCCar-Raspberry-Pi rccar
+cd rccar
 make
-./rc_car_control
+./RCCar
 ```
 
 ## Example Code
@@ -59,11 +59,6 @@ Contributions to this project are welcome! Whether it's improving the control lo
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- Thanks to the Raspberry Pi Foundation for creating such a versatile platform.
-- Kudos to the creators of SaraKIT for providing an incredible toolkit for Raspberry Pi enthusiasts.
-
-For more detailed instructions, troubleshooting, and other projects, please visit the [Hackster.io project page](https://www.hackster.io/sarakit/rc-car-lego-powered-by-raspberry-pi-cm4-with-sarakit-dfc9ac).
+For more detailed instructions, troubleshooting, and other projects, please visit the [Hackster.io project page](https://www.hackster.io/sarakit/rc-car-lego-powered-by-raspberry-pi-cm4-with-sarakit-dfc9ac) and our home page: https://sarakit.saraai.com/
 
 Happy building!
